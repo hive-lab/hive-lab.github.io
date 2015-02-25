@@ -1,5 +1,5 @@
 var hiveLabs = angular.module('hiveLabs', 'ngRoute');
-phonecatApp.config(['$routeProvider',
+hiveLabs.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
       when('/', {
