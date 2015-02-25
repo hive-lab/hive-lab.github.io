@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="hiveLabs">
  <head>
   <title>Hive Labs Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,12 +12,7 @@
     </ul>
   </header> 
   <div class="container-fluid clearfix">
-   <div class="row">
-    <div class="col-lg-6 col-lg-offset-3 text-center">
-     <div data-icon="ei-spinner-2" data-size="xxl" class="i-honey"></div>
-     <p class="text-2">Кодим сайт...</p>
-    </div>
-   </div>
+   <div class="ng-view"></div>
    <footer>
     <div class="text-center" id="fnav">
      <a class="btn btn-lg btn-warning">Проекты</a>
@@ -30,9 +25,11 @@
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular-route.min.js"></script>
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/evil-icons/1.7.2/evil-icons.min.css">
   <script src="//cdnjs.cloudflare.com/ajax/libs/evil-icons/1.7.2/evil-icons.min.js"></script>
   <link href="assets/app.css" rel="stylesheet">  
+  <script src="assets/app.js"></script>
   <!--******* GA ********-->
   <script>
    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
