@@ -9,6 +9,7 @@ ul.lgx {
 }
 li {
     display: inline;
+    padding: 0;
 }
 /*.lgy {
   margin-top: 0;
