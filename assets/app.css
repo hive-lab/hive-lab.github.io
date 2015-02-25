@@ -1,21 +1,17 @@
 .i-honey {
   fill: rgb(252,177,3);
 }
-ul.lgx {
-  display: inline;
-  list-style-type: none;
-  margin: 0 !important;
-  padding: 0 !important;
+#nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none;
 }
-li {
-  display: inline !important;
-  padding: 0 !important;
-}  
-/*.lgy {
-  margin-top: 0;
-  padding-top: 0;
+#nav li {
+	float: left; 
 }
-*/
 .text-xxl {
   font-size: 36px;
+  display: inline;
 }
