@@ -1,10 +1,9 @@
 .i-honey {
   fill: rgb(252,177,3);
 }
-.lgx {
+.lgx .ul {
   display: inline;
 }
-.lgy {
-  padding: 0;
-  margin: 0;
+.lgl ul li {
+  display: inline;
 }
