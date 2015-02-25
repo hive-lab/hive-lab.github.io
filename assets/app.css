@@ -22,6 +22,8 @@
 	color: #3C3C3C;
 }
 footer {
+	width: 100%;
 	background: #3C3C3C;
 	color: rgb(252,177,3);
+	bottom: 0;
 }
