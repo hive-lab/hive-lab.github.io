@@ -6,11 +6,12 @@ ul.lgx {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-li {
+  li {
     display: inline;
     padding: 0;
+  }  
 }
+
 /*.lgy {
   margin-top: 0;
   padding-top: 0;
