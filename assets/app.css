@@ -3,10 +3,12 @@
 }
 .lgx .ul {
   display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 .lgx ul li {
-  display: inline;
-  text-decoration: none;
+    display: inline;
 }
 .lgy {
   margin-top: 0;
