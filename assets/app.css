@@ -1,6 +1,8 @@
 .i-honey {
   fill: rgb(252,177,3);
   display: inline;
+  margin: 0;
+  padding: 0;
 }
 #nav {
 	width: 100%;
@@ -15,4 +17,6 @@
 .text-xxl {
   font-size: 36px;
   display: inline;
+  margin: 0;
+  padding: 0;
 }
