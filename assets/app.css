@@ -1,3 +1,10 @@
 .i-honey {
   fill: rgb(252,177,3);
 }
+.lgx {
+  display: inline;
+}
+.lgy {
+  position: absolute;
+  margin-top: 25%;
+}
