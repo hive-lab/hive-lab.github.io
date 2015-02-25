@@ -1,13 +1,13 @@
 .i-honey {
   fill: rgb(252,177,3);
 }
-.lgx .ul {
+ul.lgx {
   display: inline;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-.lgx ul li {
+li {
     display: inline;
 }
 /*.lgy {
