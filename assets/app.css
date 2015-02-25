@@ -31,5 +31,6 @@ footer {
 	left: 0;
 }
 #fnav {
+	position: relative;
 	margin-top: 20%;
 }
