@@ -1,4 +1,4 @@
-var hiveLabs = angular.module('hiveLabs', 'ngRoute');
+var hiveLabs = angular.module('hiveLabs', ['ngRoute']);
 hiveLabs.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
