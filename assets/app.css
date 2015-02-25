@@ -7,3 +7,7 @@
 .lgx ul li {
   display: inline;
 }
+.lgy {
+  margin-top: 0;
+  padding-top: 0;
+}
