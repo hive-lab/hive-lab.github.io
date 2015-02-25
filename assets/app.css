@@ -6,6 +6,7 @@
 }
 .lgx ul li {
   display: inline;
+  text-decoration: none;
 }
 .lgy {
   margin-top: 0;
