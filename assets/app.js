@@ -14,9 +14,9 @@ hiveLabs.config(['$routeProvider',
       when('/solutions', {
         templateUrl: 'partials/solutions.html',
       }).
-      when('/artcicles', {
-        templateUrl: 'partials/articles.html',
-        controller: 'articleCtrl'
+      when('/posts', {
+        templateUrl: 'partials/posts.html',
+        controller: 'postCtrl'
       }).      
       otherwise({
         redirectTo: '/'
