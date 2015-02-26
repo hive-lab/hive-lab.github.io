@@ -1,9 +1,9 @@
 body {
-	background: url(http://res.cloudinary.com/hive-labs/image/upload/v1424946300/back_40_hhs0cw.png) no-repeat;
+	background: url(http://res.cloudinary.com/hive-labs/image/upload/v1424946665/back_15_zpauh8.png) no-repeat;
 	-moz-background-size: 100%; /* Firefox 3.6+ */
 	-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
 	-o-background-size: 100%; /* Opera 9.6+ */
-	background-size: 100%; /* Современные браузеры */
+	background-size: cover; /* Современные браузеры */
 }
 .i-honey {
   fill: rgb(252,177,3);
