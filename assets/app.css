@@ -13,8 +13,11 @@
 .text-xxl {
   font-size: 72px;
 }
-.text-1 {
+.tx-honey {
 	color: rgb(252,177,3);
+}
+.tx-purple {
+	color: #575f92;
 }
 .text-2 {
 	color: #3C3C3C;
