@@ -24,6 +24,9 @@
 .text-3 {
 	color: black;
 }
+.crimson {
+	font-family: 'Crimson Text', serif;
+}
 footer {
 	position: absolute;
 	width: 100%;
