@@ -1,9 +1,10 @@
-var hiveLabs = angular.module('hiveLabs', ['ngRoute']);
+var hiveLabs = angular.module('hiveLabs', ['ngRoute', 'firebase']);
 hiveLabs.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
       when('/', {
-        templateUrl: 'partials/default.html'
+        templateUrl: 'partials/default.html',
+        controller: 'indexCtrl'
       }).
       when('/contacts', {
         templateUrl: 'partials/contacts.html',
@@ -13,6 +14,9 @@ hiveLabs.config(['$routeProvider',
       }).      
       when('/solutions', {
         templateUrl: 'partials/solutions.html',
+      }).
+      when('/about', {
+        templateUrl: 'partials/about.html',
       }).
       when('/posts', {
         templateUrl: 'partials/posts.html',
