@@ -55,4 +55,6 @@ footer {
 }
 .bg-white {
 	background-color: white;
+	border: 1px solid #575f92;
+	border-radius: 5px;
 }
