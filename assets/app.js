@@ -1,5 +1,5 @@
 var hiveLabs = angular.module('hiveLabs', ['ngRoute', 'firebase'])
-.controller('postCtrl', function($scope, $routeParams) {
+.controller('postCtrl', function($scope, $routeParams, $firebase) {
      $scope.name = "postCtrl";
      $scope.params = $routeParams;
  })
