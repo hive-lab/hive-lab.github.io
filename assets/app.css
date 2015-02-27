@@ -26,6 +26,21 @@ body {
 .tx-purple {
 	color: #575f92;
 }
+.bg-honey {
+	background-color: rgb(252,177,3);
+}
+.bg-purple {
+	background-color: #575f92;
+}
+.bg-border-honey {
+	border: 1px solid rgb(252,177,3);
+}
+.bg-border-purple {
+	border: 1px solid #575f92;
+}
+.bg-border-corner {
+	border-radius: 5px;
+}
 .text-2 {
 	color: #3C3C3C;
 }
