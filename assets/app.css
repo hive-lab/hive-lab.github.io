@@ -74,6 +74,8 @@ footer {
 	border-radius: 5px;
 }
 .custom-restricted-width {
+	position: relative;
 	padding-left: 0;
-	display: inline-block;
+	margin-left: 0;
+	width: 15%;
 }
