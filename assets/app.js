@@ -1,4 +1,8 @@
 var hiveLabs = angular.module('hiveLabs', ['ngRoute', 'firebase']);
+.controller('postCtrl', function($scope, $routeParams) {
+     $scope.name = "postCtrl";
+     $scope.params = $routeParams;
+ })
 hiveLabs.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
@@ -18,14 +22,13 @@ hiveLabs.config(['$routeProvider',
       when('/about', {
         templateUrl: 'partials/about.html',
       }).
-      when('/posts', {
-        templateUrl: 'partials/posts.html',
-        controller: 'postCtrl'
-      }).  
-      when('/posts/1', {
+      when('/posts/:postId', {
         templateUrl: 'posts/1.html',
         controller: 'postCtrl'
-      }).   
+      }).  
+      when('/posts/', {
+        templateUrl: 'posts/1.html',
+      }).
       otherwise({
         redirectTo: '/'
       });
