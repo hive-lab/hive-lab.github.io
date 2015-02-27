@@ -1,4 +1,4 @@
-<div class="bg-white">
+<div class="bg-white" ng-controller="postCtrl">
   <!-- HEADER  -->
   <div class="row">
     <div class="col-lg-10 col-lg-offset-1 text-center" id="title"><h2 class="tx-honey"><b>Internet of things</b></h2></div>
@@ -30,7 +30,7 @@
       </div>
     </div>
     <!-- Article content -->
-    <div class="col-lg-8" id="content">
+    <div class="col-lg-8" id="content" ng-include="{{params.postId}}.html">
       <p>Здесь будет контент статьи</p>
     </div>
   </div>
