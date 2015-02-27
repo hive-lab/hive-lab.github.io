@@ -21,7 +21,11 @@ hiveLabs.config(['$routeProvider',
       when('/posts', {
         templateUrl: 'partials/posts.html',
         controller: 'postCtrl'
-      }).      
+      }).  
+      when('/posts/1', {
+        templateUrl: 'posts/1.html',
+        controller: 'postCtrl'
+      }).   
       otherwise({
         redirectTo: '/'
       });
