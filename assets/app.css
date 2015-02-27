@@ -73,13 +73,12 @@ footer {
 	border: 1px solid #575f92;
 	border-radius: 5px;
 }
-/*.custom-restricted-width {
-	padding-left: 0;
+.custom-restricted-width {
+/*padding-left: 0;
 	margin-left: 0;
-	width: 15%;
-} */
+	width: 15%; */
+	display: inline-block;
+}
 #left-menu {
-	padding-left: 0;
-	margin-left: 0;
 	width: 15%;
 }
